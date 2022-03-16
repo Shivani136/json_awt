@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import Login from './Login';
-import Register from './Register';
+import CreateWorkOrder from './ Createworkorder';
 import Home from './Home'
 
 export default class Navbar extends Component {
@@ -23,7 +23,7 @@ export default class Navbar extends Component {
           <a class="nav-link active" aria-current="page" href="/login">Login</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/register">Register</a>
+          <a class="nav-link active" aria-current="page" href="/createWorkOrder">CreateWorkOrder</a>
         </li>
     
       </ul>

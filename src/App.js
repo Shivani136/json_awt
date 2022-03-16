@@ -4,9 +4,11 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Login from './Component/Login';
 import Home from './Component/Home';
 import Navbar from './Component/Navbar';
+
 //import {BrowserRouter,Switch,Route} from "react-router-dom";
-import Register from './Component/Register';
+import Createworkorder from './Component/ Createworkorder';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Getwork from './Component/Getwork';
 //import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 
@@ -23,14 +25,17 @@ function App() {
         <Routes>
           <Route exact path="/" element={Home} />
           <Route exact path="/login" element={Login} />
-          <Route exact path="/register" element={Register} />
+          <Route exact path="/createworkorder" element={Createworkorder} />
           </Routes>
           </div>
           </div>
 
-    {/* <Register /> */}
-     <Login />     
-         
+  
+  
+     {/* <Login />     
+      <Createworkorder />  */}
+      <Getwork />
+ 
     </div>
     </BrowserRouter> 
   );

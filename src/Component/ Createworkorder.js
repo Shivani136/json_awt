@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 
-const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImV4YW1wbGVAZ21haWwuY29tIiwiX2lkIjoiNjIyZWM2OWRkMWE5OGVkN2I3M2RlYmU2IiwiaWF0IjoxNjQ3MzUwNjg0LCJleHAiOjE2NDc0MzcwODR9.ceCuJsX--cMshv7inWQo1sJ2wlYftdgzEwsSRuiAAdk"
+const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImV4YW1wbGVAZ21haWwuY29tIiwiX2lkIjoiNjIzMmI3MTk4MzI0NjBlN2YxODllMGU4IiwiaWF0IjoxNjQ3NDkxMjgzLCJleHAiOjE2NDc1Nzc2ODN9.gB9Rx0jwbI-uF1uQNHtMJrqLoJOGJTS8O3fldNmY9nE"
 const apiUrl = 'http://94.237.3.78:4000/api'
 
 const authAxios = axios.create({

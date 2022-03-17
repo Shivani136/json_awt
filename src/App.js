@@ -9,6 +9,7 @@ import Navbar from './Component/Navbar';
 import Createworkorder from './Component/ Createworkorder';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Getwork from './Component/Getwork';
+import DynamicTable from './Component/DynamicTable';
 //import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 
@@ -32,10 +33,11 @@ function App() {
 
   
   
-     {/* <Login />     
-      <Createworkorder />  */}
-      <Getwork />
- 
+     {/* <Login />      */}
+       {/* <Createworkorder />  */}
+       <DynamicTable />
+      <Getwork /> 
+  
     </div>
     </BrowserRouter> 
   );

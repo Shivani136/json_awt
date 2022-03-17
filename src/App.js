@@ -35,7 +35,7 @@ function App() {
   
      {/* <Login />      */}
        {/* <Createworkorder />  */}
-       <DynamicTable />
+       {/* <DynamicTable /> */}
       <Getwork /> 
   
     </div>
